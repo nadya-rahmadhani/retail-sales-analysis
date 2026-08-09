@@ -34,29 +34,28 @@ Lihat detail lengkap di [`docs/business_questions.md`](docs/business_questions.m
 
 ## 📂 Project Structure
 
+```
 retail-sales-analysis/
 ├── data/
-│ ├── raw/ # Data mentah
-│ └── cleaned/ # Data hasil cleaning
+│   ├── raw/                  # Data mentah
+│   └── cleaned/               # Data hasil cleaning
 ├── notebooks/
-│ ├── 01_business_data_understanding.ipynb
-│ ├── 02_data_cleaning.ipynb
-│ ├── 03_eda.ipynb
-│ └── import_cleaned_data.py
+│   ├── 01_business_data_understanding.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_eda.ipynb
+│   └── import_cleaned_data.py
 ├── sql/
-│ ├── 01_create_tables.sql
-│ ├── 02_import_data.sql
-│ └── 03_analysis_queries.sql
+│   ├── 01_create_tables.sql
+│   ├── 02_import_data.sql
+│   └── 03_analysis_queries.sql
 ├── powerbi/
-│ ├── retail_dashboard.pbix
-│ └── dashboard_preview.png
-├── docs/
-│ ├── data_dictionary.md
-│ ├── business_questions.md
-│ └── recommendations.md
-└── images/
-
-
+│   ├── retail_dashboard.pbix
+│   └── dashboard_preview.png
+└── docs/
+    ├── data_dictionary.md
+    ├── business_questions.md
+    └── recommendations.md
+```
 ---
 
 ## 🔍 Workflow
